@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.headLines-Noto-Serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;  
+}
+.inter{
+    
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+/* Shared Style */
+
+.width{
+    max-width: 1140px;
+    margin:20px auto;
+}
+
+.flex-items{
+    display: flex;
+}
+.text-gray{
+    color:rgba(0, 0, 0, 0.5);
+}
+.title-color{
+    color:#E95A08
+
+}
+
+
+/* Nav Style */
+
+.home{
+    color: #252432;
+}
+
+.nav,li , a{
+    
+   justify-content: space-between; 
+   align-items: center;
+   list-style: none;
+   text-decoration: none;
+
+}
+
+ul, li {
+    margin-left: 50px;   
+}
+li:last-child{
+    text-align: center;
+}
+
+
+/* Fresh Flower */
+
+.fresh-flower{
+    margin:7.5rem auto;
+}
+
+.fresh-flower-title{
+    font-weight: bold;
+    font-size: 4rem;
+    width: 570px;
+}
+
+.fresh-flower-description{
+    width: 570px;
+    font-size: 22px;
+   color: rgba(0, 0, 0, 0.56);
+}
+.flower-img{
+    width: 570px;
+}
+
+/* Our Plants */
+
+.plant-title{
+    font-weight: bold;
+    font-size: 3.124rem;
+}
+.plant-text{
+    font-size: 1.375rem;
+    width: 55.5rem;
+}
+.plant-container{
+    
+    text-align: center;
+
+}
+
+/*  Flower and Plants Lover */
+
+/* Latest Deal */
+
+/* Colorful Bunch */
+
+/* footer */
+
+
+/* Media Query  */
+
+/* navber */
+@media screen and (max-width: 576px) {
+   .home,.text-gray{
+        display: none;
+        
+    }
+    .nav{
+        padding:20px 30px;
+        
+    }
+    
+
+    .fresh-flower{
+        flex-direction: column-reverse;
+        
+        
+    }
+    .flower-text{
+    padding:20px 60px;
+    padding-right: 60px;
+    }
+    .fresh-flower-title{
+        font-size: 24px;
+        font-weight: bold;
+        
+    }
+    .fresh-flower-description{
+        font-size: 14px;
+    }
+    
+}
+
