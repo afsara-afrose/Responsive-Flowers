@@ -34,6 +34,15 @@
 
 }
 
+.btn-primary{
+    background-color: #E95A08;
+    color: aliceblue;
+    border: none;
+    padding: 16px 20px;
+    width: 270px;
+
+}
+
 
 /* Nav Style */
 
@@ -84,16 +93,36 @@ li:last-child{
 .plant-title{
     font-weight: bold;
     font-size: 3.124rem;
+    text-align: center;
 }
 .plant-text{
     font-size: 1.375rem;
-    width: 55.5rem;
-}
-.plant-container{
-    
+    /* width: 55.5rem; */
     text-align: center;
-
+    padding:0px 126px;
 }
+
+
+/* Container */
+
+.container-text{
+    /* width: 270px;
+    height: 132px; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text{
+    padding: 0px;
+    margin:30px 69px ;
+}
+
+.cart-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
 
 /*  Flower and Plants Lover */
 
@@ -135,6 +164,23 @@ li:last-child{
     .fresh-flower-description{
         font-size: 14px;
     }
+
+       .cart-grid {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding-right: 16px;
+    }
+
+    
+
+    
     
 }
+
+
+/* our Plants */
+
+
+
 
