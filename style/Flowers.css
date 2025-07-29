@@ -50,7 +50,7 @@
     color: #252432;
 }
 
-.nav,li , a{
+.nav,.list , a{
     
    justify-content: space-between; 
    align-items: center;
@@ -126,6 +126,64 @@ li:last-child{
 
 /*  Flower and Plants Lover */
 
+.flower-shope{
+      display:flex;
+      justify-content: space-between;
+      gap:20px;
+}
+
+.shope-container {
+  width:540px;
+ 
+}
+
+.shope-title  {
+  font-weight: bold;
+  font-size: 50px;
+  width:540px;
+  height: 137px;
+  padding-bottom: 10px;
+  
+}
+
+ /* Flower & Plants Lover */
+ .flower-store{
+    margin-top: 210px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+ }
+ .flower-img{
+    /* border: 2px solid black; */
+    flex: 1;
+    position: relative;
+ }
+ .flower-img img{
+    width:100%;
+    border-radius: 10px;
+ }
+
+ #badge{
+    width: 286px;
+ position: absolute;
+ top:-120px;
+ right: -100px;
+  
+ }
+ .flower-text{
+    flex:1;
+ }
+ .flower-text h2{
+    font-size:50px;
+    font-weight: bold;
+    padding-left:70px;
+ }
+ .flower-text ul,li{
+    font-size:20px;
+    padding-left:5px;
+    color:rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+ }
 /* Latest Deal */
 
 /* Colorful Bunch */
@@ -172,10 +230,10 @@ li:last-child{
         padding-right: 16px;
     }
 
-    
-
-    
-    
+    .flower-shope{
+        flex-direction: column;
+        /* width:361px; */
+    }   
 }
 
 
