@@ -233,11 +233,22 @@ li:last-child{
     .flower-shope{
         flex-direction: column;
         /* width:361px; */
-    }   
+    } 
+    
+    .flower-store{
+    flex-direction: column;
+}
+#badge{
+
+    display: none;
+}
 }
 
 
-/* our Plants */
+
+
+
+
 
 
 
