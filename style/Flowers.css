@@ -18,7 +18,7 @@
 
 /* Shared Style */
 
-.width{
+.container{
     max-width: 1140px;
     margin:20px auto;
 }
@@ -277,10 +277,44 @@ left: 50%;
 
 
 }
+ /* Newsletter Section  */
+ .newsletter{
+    background:url('../assets/news-letter-bg.png') center/cover no-repeat;
+    /* padding: 100px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height:533px;
+    
 
+ }
+ .overlay-content h2{
+     font-weight:bold;
+     font-size: 50px;
+ }
+ 
+ .newsletter form {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
 
-/* Colorful Bunch */
+.newsletter input {
+  padding: 10px 20px 20px 20px;
+  flex: 1;
+  border: none;
+  
+}
 
+.newsletter button {
+    width:25%;
+  color: white;
+  border: none;
+  font-weight:600;
+  
+}
 /* footer */
 
 
