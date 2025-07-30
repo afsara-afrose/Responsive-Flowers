@@ -17,7 +17,11 @@
 }
 
 /* Shared Style */
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 .container{
     max-width: 1140px;
     margin:20px auto;
@@ -49,23 +53,17 @@
 .home{
     color: #252432;
 }
-
-.nav,.list , a{
-    
-   justify-content: space-between; 
+.nav{
+     justify-content: space-between; 
    align-items: center;
+}
+
+.nav ul , a, i{
    list-style: none;
    text-decoration: none;
+   margin-left: 20px;
 
 }
-
-ul, li {
-    margin-left: 50px;   
-}
-li:last-child{
-    text-align: center;
-}
-
 
 /* Fresh Flower */
 
@@ -85,7 +83,8 @@ li:last-child{
    color: rgba(0, 0, 0, 0.56);
 }
 .flower-img{
-    width: 570px;
+    /* width: 570px; */
+    width:100%;
 }
 
 /* Our Plants */
@@ -94,12 +93,14 @@ li:last-child{
     font-weight: bold;
     font-size: 3.124rem;
     text-align: center;
+    
 }
 .plant-text{
     font-size: 1.375rem;
     /* width: 55.5rem; */
     text-align: center;
     padding:0px 126px;
+    margin:34px;
 }
 
 
@@ -286,6 +287,7 @@ left: 50%;
     align-items: center;
     color:white;
     height:533px;
+    margin-top:120px;
     
 
  }
@@ -368,57 +370,69 @@ footer {
 }
 
 
-/* Media Query  */
-
-/* navber */
+         /* Responsive Section */
 @media screen and (max-width: 576px) {
-   .home,.text-gray{
-        display: none;
-        
-    }
-    .nav{
-        padding:20px 30px;
-        
-    }
-    
-
-    .fresh-flower{
-        flex-direction: column-reverse;
-        
-        
-    }
-    .flower-text{
-    padding:20px 60px;
-    padding-right: 60px;
-    }
-    .fresh-flower-title{
-        font-size: 24px;
-        font-weight: bold;
-        
-    }
-    .fresh-flower-description{
-        font-size: 14px;
-    }
-
-       .cart-grid {
-        display: grid; 
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        padding-right: 16px;
-    }
-
-    .flower-shope{
-        flex-direction: column;
-        /* width:361px; */
-    } 
-    
-    .flower-store{
-    flex-direction: column;
+ /* *{
+  margin:0;
+  padding:0;
+  max-width: 495px;
+ } */
+          /* Nav Section */
+.list a{
+    display:none;
 }
-#badge{
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 16px;
+    width:461px;
+  }
+  .cart-icon {
+    font-size: 16px;
+  }
 
-    display: none;
-}
+   /* banner */
+   .fresh-flower{
+    flex-direction: column-reverse;
+
+   }
+   .fresh-flower .flower-img{
+    
+    width:100%;
+   }
+
+   .fresh-flower-title{
+    font-size:24px;
+    font-weight: bold;
+    width:222px;
+    margin:24px 16px 10px 16px;
+
+   }
+   .fresh-flower-description{
+    margin:0 16px 30px 16px;
+    font-size:14px;
+    width:461px;
+   }
+       /* Our Plants */
+       .plant-title{
+        font-size:24px;
+        margin-bottom:20px;
+       }
+  .plant-text{
+    margin-bottom:30px;
+    font-size:14px;
+    width:460px;
+  }
+
+  /* card container */
+  
+  .cart-grid{
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+    margin:0 16px 0 16px;
+    
+  }
 }
 
 
