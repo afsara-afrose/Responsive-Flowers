@@ -476,8 +476,21 @@ li {
     font-size: 20px;
   }
 
+  .deal-card {
+  position: relative;
+  overflow: hidden;
+}
+
   .overlay-2 h4 {
+    font-size: 18px;
+    
+   
+  
+  }
+  .overlay-2 a{
     font-size: 20px;
+  
+
   }
 
   /* Newsletter Section */
@@ -485,7 +498,7 @@ li {
     width: 100%;
   }
   .overlay-content {
-    max-width: 461px;
+    /* max-width: 461px; */
     text-align: center;
   }
   .overlay-content h2 {
