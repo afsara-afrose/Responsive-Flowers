@@ -193,7 +193,7 @@
     
     margin:133px auto;
     text-align:center;
-    max-width: 800px;
+   
 }
 .deals-section-container h2{
    font-size:50px;
@@ -257,7 +257,7 @@ text-decoration: underline;
  font-size: 40px;
  color:white;
  position: absolute;
- top:30%;
+ top:50%;
 left: 50%;
  transform: translate(-50%,-50%);
 
@@ -444,7 +444,69 @@ footer {
   .flower-text li{
     font-size:14px;
   }
+  /* Latest Deal */
+  .deals {
+    width:460px;
+    padding:0 16px;
+  }
+  .deals h2{
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+  .deals p{
+    font-size: 14px;
+  }
+  .deal-cards{
+    flex-direction:column;
+    
+    
+  }
+  .deal-card{
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .deal-card img{
+    width: 100%;
+    margin:0 16px;
+    
+    
+  }
   
+  .deal-card .overlay h4{
+    font-size: 20px;
+  }
+  
+  .overlay-2 h4{
+    font-size: 20px;
+    
+  }
+
+  /* Newsletter Section */
+  .newsletter{
+    width:100%;
+  }
+  .overlay-content{
+     max-width: 461px;
+     text-align:center;
+
+  }
+  .overlay-content h2{
+     font-size: 24px;
+     margin-bottom: 15px;
+ }
+ .newsletter form {
+  max-width: 321px;
+  height:50px;
+  
+}
+.newsletter button {
+
+  font-weight:300;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 }
 
 
